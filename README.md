@@ -18,4 +18,6 @@ grep esquitxar /Users/fairliereese/Documents/catala/catalan-dict-tools/resultats
 
 Using the unzipped .anki21 file from the linked spanish conjucation deck
 
-`dev_sqlite.py`
+`get_spanish_verbs.py`
+
+Edit `spanish_verbs.tsv` to manually add the catalan translations
