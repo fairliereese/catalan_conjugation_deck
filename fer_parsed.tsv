@@ -1,0 +1,78 @@
+	conj_verb	inf_verb	code	region	mood	gender	tense	person	sing_or_plural	haver_verb	anar_verb	pos_neg_cmd
+655777	fa	fer	VMIP3S00	central	I	0	P	3	S			0
+656142	faci	fer	VMM03S0Y	central	M	0	0	3	S			pos
+656143	faci	fer	VMSP1S0Y	central	S	0	P	1	S			0
+656144	faci	fer	VMSP3S0Y	central	S	0	P	3	S			0
+656252	facin	fer	VMM03P0Y	central	M	0	0	3	P			pos
+656253	facin	fer	VMSP3P0Y	central	S	0	P	3	P			0
+656280	facis	fer	VMSP2S0Y	central	S	0	P	2	S			0
+657459	faig	fer	VMIP1S00	central	I	0	P	1	S			0
+659023	fan	fer	VMIP3P00	central	I	0	P	3	P			0
+660037	faran	fer	VMIF3P00	central	I	0	F	3	P			0
+660197	farem	fer	VMIF1P00	central	I	0	F	1	P			0
+660198	fareu	fer	VMIF2P00	central	I	0	F	2	P			0
+660405	faria	fer	VMIC1S00	central	I	0	C	1	S			0
+660406	faria	fer	VMIC3S00	central	I	0	C	3	S			0
+660407	farien	fer	VMIC3P00	central	I	0	C	3	P			0
+660408	faries	fer	VMIC2S00	central	I	0	C	2	S			0
+661276	farà	fer	VMIF3S00	central	I	0	F	3	S			0
+661283	faràs	fer	VMIF2S00	central	I	0	F	2	S			0
+661284	faré	fer	VMIF1S00	central	I	0	F	1	S			0
+661285	faríem	fer	VMIC1P00	central	I	0	C	1	P			0
+661286	faríeu	fer	VMIC2P00	central	I	0	C	2	P			0
+661294	fas	fer	VMIP2S00	central	I	0	P	2	S			0
+662967	feia	fer	VMII1S00	central	I	0	I	1	S			0
+662968	feia	fer	VMII3S00	central	I	0	I	3	S			0
+662969	feien	fer	VMII3P00	central	I	0	I	3	P			0
+662970	feies	fer	VMII2S00	central	I	0	I	2	S			0
+663517	fem	fer	VMIP1P00	central	I	0	P	1	P			0
+663518	fem	fer	VMM01P00	central	M	0	0	1	P			pos
+663519	fem	fer	VMSP1P00	central	S	0	P	1	P			0
+664676	fent	fer	VMG00000	central	G	0	0	0	0			0
+664828	fer	fer	VMN00000	central	N	0	0	0	0			0
+664833	fera	fer	VMSI1S03	central	S	0	I	1	S			0
+664834	fera	fer	VMSI3S03	central	S	0	I	3	S			0
+664958	feren	fer	VMSI3P03	central	S	0	I	3	P			0
+664962	feres	fer	VMSI2S03	central	S	0	I	2	S			0
+666202	fes	fer	VMM02S00	central	M	0	0	2	S			pos
+666203	fes	fer	VMSI1S01	central	S	0	I	1	S			0
+666204	fes	fer	VMSI3S01	central	S	0	I	3	S			0
+666236	fessen	fer	VMSI3P05	central	S	0	I	3	P			0
+666237	fesses	fer	VMSI2S05	central	S	0	I	2	S			0
+666240	fessin	fer	VMSI3P02	central	S	0	I	3	P			0
+666241	fessis	fer	VMSI2S02	central	S	0	I	2	S			0
+666567	fet	fer	VMP00SM0	central	P	M	0	0	S			0
+666571	feta	fer	VMP00SF0	central	P	F	0	0	S			0
+666579	fetes	fer	VMP00PF0	central	P	F	0	0	P			0
+666830	fets	fer	VMP00PM0	central	P	M	0	0	P			0
+666833	feu	fer	VMIP2P00	central	I	0	P	2	P			0
+666835	feu	fer	VMM02P00	central	M	0	0	2	P			pos
+666836	feu	fer	VMSP2P00	central	S	0	P	2	P			0
+693059	fèiem	fer	VMII1P00	central	I	0	I	1	P			0
+693060	fèieu	fer	VMII2P00	central	I	0	I	2	P			0
+693102	féiem	fer	VMII1P00	central	I	0	I	1	P			0
+693103	féieu	fer	VMII2P00	central	I	0	I	2	P			0
+693106	férem	fer	VMSI1P03	central	S	0	I	1	P			0
+693108	féreu	fer	VMSI2P03	central	S	0	I	2	P			0
+693109	féssem	fer	VMSI1P05	central	S	0	I	1	P			0
+693110	fésseu	fer	VMSI2P05	central	S	0	I	2	P			0
+693111	féssim	fer	VMSI1P02	central	S	0	I	1	P			0
+693112	féssiu	fer	VMSI2P02	central	S	0	I	2	P			0
+0	he fet				I		perfet	1	S	he		0
+1	has fet				I		perfet	2	S	has		0
+2	ha fet				I		perfet	3	S	ha		0
+3	hem fet				I		perfet	1	P	hem		0
+4	heu fet				I		perfet	2	P	heu		0
+5	han fet				I		perfet	3	P	han		0
+0	vaig fer				I		passat_perifrastic	1	S		vaig	0
+1	vas fer				I		passat_perifrastic	2	S		vas	0
+2	va fer				I		passat_perifrastic	3	S		va	0
+3	vam fer				I		passat_perifrastic	1	P		vam	0
+4	vau fer				I		passat_perifrastic	2	P		vau	0
+5	van fer				I		passat_perifrastic	3	P		van	0
+656143	faci	fer	VMSP1S0Y	central	M	0	P	1	S			neg
+656144	faci	fer	VMSP3S0Y	central	M	0	P	3	S			neg
+656253	facin	fer	VMSP3P0Y	central	M	0	P	3	P			neg
+656280	facis	fer	VMSP2S0Y	central	M	0	P	2	S			neg
+663519	fem	fer	VMSP1P00	central	M	0	P	1	P			neg
+666836	feu	fer	VMSP2P00	central	M	0	P	2	P			neg

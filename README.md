@@ -9,7 +9,7 @@ bash build-lt.sh
 
 Get one verb to play with:
 ```bash
-grep esquitxar /Users/fairliereese/Documents/catala/catalan-dict-tools/resultats/lt/diccionari.txt > esquitxar_example.txt
+grep esquitxar diccionari.txt > esquitxar_example.txt
 ```
 
 `dev.ipynb`
