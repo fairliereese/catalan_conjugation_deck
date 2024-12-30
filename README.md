@@ -21,3 +21,8 @@ Using the unzipped .anki21 file from the linked spanish conjucation deck
 `get_spanish_verbs.py`
 
 Edit `spanish_verbs.tsv` to manually add the catalan translations
+
+
+# Wishlist
+* add treure because f that verb (have jeure as a model but treure would def be more useful)
+* add past tense cards to help train the difference between passat perfet and passat perifrastic (ie by adding an avui, or aquest cap de setmana for simple or ahir, or l'any passat for the passat perifrastic)
