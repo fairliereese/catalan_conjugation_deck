@@ -434,6 +434,8 @@ caiguin	caure	VMM03P0Y	central	M	M	0	0	3	P			pos
 caiguin	caure	VMSP3P0Y	central	S	M	0	P	3	P			0
 caiguis	caure	VMSP2S0Y	central	S	M	0	P	2	S			0
 caigut	caure	VMP00SM0	central	P	M	M	0	0	S			0
+caigués	caure	VMSI1S01	central	S	M	0	I	1	S			0
+caigués	caure	VMSI3S01	central	S	M	0	I	3	S			0
 camina	caminar	VMIP3S00	central	I	M	0	P	3	S			0
 camina	caminar	VMM02S00	central	M	M	0	0	2	S			pos
 caminant	caminar	VMG00000	central	G	M	0	0	0	0			0
@@ -558,6 +560,8 @@ creguin	creure	VMM03P0Y	central	M	M	0	0	3	P			pos
 creguin	creure	VMSP3P0Y	central	S	M	0	P	3	P			0
 creguis	creure	VMSP2S0Y	central	S	M	0	P	2	S			0
 cregut	creure	VMP00SM0	central	P	M	M	0	0	S			0
+cregués	creure	VMSI1S01	central	S	M	0	I	1	S			0
+cregués	creure	VMSI3S01	central	S	M	0	I	3	S			0
 creia	creure	VMII1S00	central	I	M	0	I	1	S			0
 creia	creure	VMII3S00	central	I	M	0	I	3	S			0
 creiem	creure	VMIP1P00	central	I	M	0	P	1	P			0
@@ -700,6 +704,8 @@ digui	dir	VMSP3S0Y	central	S	M	0	P	3	S			0
 diguin	dir	VMM03P0Y	central	M	M	0	0	3	P			pos
 diguin	dir	VMSP3P0Y	central	S	M	0	P	3	P			0
 diguis	dir	VMSP2S0Y	central	S	M	0	P	2	S			0
+digués	dir	VMSI1S01	central	S	M	0	I	1	S			0
+digués	dir	VMSI3S01	central	S	M	0	I	3	S			0
 dir	dir	VMN00000	central	N	M	0	0	0	0			0
 diran	dir	VMIF3P00	central	I	M	0	F	3	P			0
 direm	dir	VMIF1P00	central	I	M	0	F	1	P			0
@@ -1205,20 +1211,12 @@ fet	fer	VMP00SM0	central	P	M	M	0	0	S			0
 feu	fer	VMIP2P00	central	I	M	0	P	2	P			0
 feu	fer	VMM02P00	central	M	M	0	0	2	P			pos
 feu	fer	VMSP2P00	central	S	M	0	P	2	P			0
-fora	ser	VSIC1S00	central	I	S	0	C	1	S			0
-fora	ser	VSIC3S00	central	I	S	0	C	3	S			0
-foren	ser	VSIC3P00	central	I	S	0	C	3	P			0
-fores	ser	VSIC2S00	central	I	S	0	C	2	S			0
 fos	ser	VSSI1S01	central	S	S	0	I	1	S			0
 fos	ser	VSSI3S01	central	S	S	0	I	3	S			0
 fossin	ser	VSSI3P02	central	S	S	0	I	3	P			0
 fossis	ser	VSSI2S02	central	S	S	0	I	2	S			0
 fèiem	fer	VMII1P00	central	I	M	0	I	1	P			0
 fèieu	fer	VMII2P00	central	I	M	0	I	2	P			0
-fóra	ser	VSIC1S00	central	I	S	0	C	1	S			0
-fóra	ser	VSIC3S00	central	I	S	0	C	3	S			0
-fórem	ser	VSIC1P00	central	I	S	0	C	1	P			0
-fóreu	ser	VSIC2P00	central	I	S	0	C	2	P			0
 fóssim	ser	VSSI1P02	central	S	S	0	I	1	P			0
 fóssiu	ser	VSSI2P02	central	S	S	0	I	2	P			0
 incloc	incloure	VMIP1S00	central	I	M	0	P	1	S			0
@@ -1278,6 +1276,8 @@ jaguin	jeure	VMM03P0Y	central	M	M	0	0	3	P			pos
 jaguin	jeure	VMSP3P0Y	central	S	M	0	P	3	P			0
 jaguis	jeure	VMSP2S0Y	central	S	M	0	P	2	S			0
 jagut	jeure	VMP00SM0	central	P	M	M	0	0	S			0
+jagués	jeure	VMSI1S01	central	S	M	0	I	1	S			0
+jagués	jeure	VMSI3S01	central	S	M	0	I	3	S			0
 jaiem	jeure	VMIP1P00	central	I	M	0	P	1	P			0
 jaient	jeure	VMG00000	central	G	M	0	0	0	0			0
 jaieu	jeure	VMIP2P00	central	I	M	0	P	2	P			0
@@ -1350,8 +1350,6 @@ jugàvem	jugar	VMII1P00	central	I	M	0	I	1	P			0
 jugàveu	jugar	VMII2P00	central	I	M	0	I	2	P			0
 jèiem	jeure	VMII1P00	central	I	M	0	I	1	P			0
 jèieu	jeure	VMII2P00	central	I	M	0	I	2	P			0
-llu	lluir	VMIP3S00	central	I	M	0	P	3	S			0
-llu	lluir	VMM02S00	central	M	M	0	0	2	S			pos
 llueix	lluir	VMIP3S00	central	I	M	0	P	3	S			0
 llueix	lluir	VMM02S00	central	M	M	0	0	2	S			pos
 llueixen	lluir	VMIP3P00	central	I	M	0	P	3	P			0
@@ -1363,7 +1361,6 @@ llueixin	lluir	VMM03P0Y	central	M	M	0	0	3	P			pos
 llueixin	lluir	VMSP3P0Y	central	S	M	0	P	3	P			0
 llueixis	lluir	VMSP2S0Y	central	S	M	0	P	2	S			0
 llueixo	lluir	VMIP1S0C	central	I	M	0	P	1	S			0
-lluen	lluir	VMIP3P00	central	I	M	0	P	3	P			0
 lluint	lluir	VMG00000	central	G	M	0	0	0	0			0
 lluir	lluir	VMN00000	central	N	M	0	0	0	0			0
 lluiran	lluir	VMIF3P00	central	I	M	0	F	3	P			0
@@ -1378,21 +1375,12 @@ lluiràs	lluir	VMIF2S00	central	I	M	0	F	2	S			0
 lluiré	lluir	VMIF1S00	central	I	M	0	F	1	S			0
 lluiríem	lluir	VMIC1P00	central	I	M	0	C	1	P			0
 lluiríeu	lluir	VMIC2P00	central	I	M	0	C	2	P			0
-lluo	lluir	VMIP1S0C	central	I	M	0	P	1	S			0
-llus	lluir	VMIP2S00	central	I	M	0	P	2	S			0
-lluu	lluir	VMIP1S00	central	I	M	0	P	1	S			0
-lluu	lluir	VMIP3S00	central	I	M	0	P	3	S			0
-lluu	lluir	VMM02S00	central	M	M	0	0	2	S			pos
-lluus	lluir	VMIP2S00	central	I	M	0	P	2	S			0
 lluíem	lluir	VMII1P00	central	I	M	0	I	1	P			0
 lluíeu	lluir	VMII2P00	central	I	M	0	I	2	P			0
 lluís	lluir	VMSI1S01	central	S	M	0	I	1	S			0
 lluís	lluir	VMSI3S01	central	S	M	0	I	3	S			0
 lluíssim	lluir	VMSI1P02	central	S	M	0	I	1	P			0
 lluíssiu	lluir	VMSI2P02	central	S	M	0	I	2	P			0
-lluï	lluir	VMM03S0Y	central	M	M	0	0	3	S			pos
-lluï	lluir	VMSP1S0Y	central	S	M	0	P	1	S			0
-lluï	lluir	VMSP3S0Y	central	S	M	0	P	3	S			0
 lluïa	lluir	VMII1S00	central	I	M	0	I	1	S			0
 lluïa	lluir	VMII3S00	central	I	M	0	I	3	S			0
 lluïen	lluir	VMII3P00	central	I	M	0	I	3	P			0
@@ -1400,9 +1388,6 @@ lluïes	lluir	VMII2S00	central	I	M	0	I	2	S			0
 lluïm	lluir	VMIP1P00	central	I	M	0	P	1	P			0
 lluïm	lluir	VMM01P00	central	M	M	0	0	1	P			pos
 lluïm	lluir	VMSP1P00	central	S	M	0	P	1	P			0
-lluïn	lluir	VMM03P0Y	central	M	M	0	0	3	P			pos
-lluïn	lluir	VMSP3P0Y	central	S	M	0	P	3	P			0
-lluïs	lluir	VMSP2S0Y	central	S	M	0	P	2	S			0
 lluïssin	lluir	VMSI3P02	central	S	M	0	I	3	P			0
 lluïssis	lluir	VMSI2S02	central	S	M	0	I	2	S			0
 lluït	lluir	VMP00SM0	central	P	M	M	0	0	S			0
@@ -1772,8 +1757,6 @@ prediguin	predir	VMSP3P0Y	central	S	M	0	P	3	P			0
 prediguis	predir	VMSP2S0Y	central	S	M	0	P	2	S			0
 predigués	predir	VMSI1S01	central	S	M	0	I	1	S			0
 predigués	predir	VMSI3S01	central	S	M	0	I	3	S			0
-prediguéssim	predir	VMSI1P02	central	S	M	0	I	1	P			0
-prediguéssiu	predir	VMSI2P02	central	S	M	0	I	2	P			0
 predir	predir	VMN00000	central	N	M	0	0	0	0			0
 prediran	predir	VMIF3P00	central	I	M	0	F	3	P			0
 predirem	predir	VMIF1P00	central	I	M	0	F	1	P			0
@@ -1793,8 +1776,6 @@ prediuen	predir	VMIP3P00	central	I	M	0	P	3	P			0
 predius	predir	VMIP2S00	central	I	M	0	P	2	S			0
 predèiem	predir	VMII1P00	central	I	M	0	I	1	P			0
 predèieu	predir	VMII2P00	central	I	M	0	I	2	P			0
-predéiem	predir	VMII1P00	central	I	M	0	I	1	P			0
-predéieu	predir	VMII2P00	central	I	M	0	I	2	P			0
 produeix	produir	VMIP3S00	central	I	M	0	P	3	S			0
 produeix	produir	VMM02S00	central	M	M	0	0	2	S			pos
 produeixen	produir	VMIP3P00	central	I	M	0	P	3	P			0
@@ -2012,8 +1993,6 @@ riguis	riure	VMSP2S0Y	central	S	M	0	P	2	S			0
 rigut	riure	VMP00SM0	central	P	M	M	0	0	S			0
 rigués	riure	VMSI1S01	central	S	M	0	I	1	S			0
 rigués	riure	VMSI3S01	central	S	M	0	I	3	S			0
-riguéssim	riure	VMSI1P02	central	S	M	0	I	1	P			0
-riguéssiu	riure	VMSI2P02	central	S	M	0	I	2	P			0
 riu	riure	VMIP3S00	central	I	M	0	P	3	S			0
 riu	riure	VMM02S00	central	M	M	0	0	2	S			pos
 riuen	riure	VMIP3P00	central	I	M	0	P	3	P			0
@@ -2033,8 +2012,6 @@ riuríeu	riure	VMIC2P00	central	I	M	0	C	2	P			0
 rius	riure	VMIP2S00	central	I	M	0	P	2	S			0
 rèiem	riure	VMII1P00	central	I	M	0	I	1	P			0
 rèieu	riure	VMII2P00	central	I	M	0	I	2	P			0
-réiem	riure	VMII1P00	central	I	M	0	I	1	P			0
-réieu	riure	VMII2P00	central	I	M	0	I	2	P			0
 sabem	saber	VMIP1P00	central	I	M	0	P	1	P			0
 saben	saber	VMIP3P00	central	I	M	0	P	3	P			0
 sabent	saber	VMG00000	central	G	M	0	0	0	0			0
@@ -2254,8 +2231,6 @@ somriguis	somriure	VMSP2S0Y	central	S	M	0	P	2	S			0
 somrigut	somriure	VMP00SM0	central	P	M	M	0	0	S			0
 somrigués	somriure	VMSI1S01	central	S	M	0	I	1	S			0
 somrigués	somriure	VMSI3S01	central	S	M	0	I	3	S			0
-somriguéssim	somriure	VMSI1P02	central	S	M	0	I	1	P			0
-somriguéssiu	somriure	VMSI2P02	central	S	M	0	I	2	P			0
 somriu	somriure	VMIP3S00	central	I	M	0	P	3	S			0
 somriu	somriure	VMM02S00	central	M	M	0	0	2	S			pos
 somriuen	somriure	VMIP3P00	central	I	M	0	P	3	P			0
@@ -2275,8 +2250,6 @@ somriuríeu	somriure	VMIC2P00	central	I	M	0	C	2	P			0
 somrius	somriure	VMIP2S00	central	I	M	0	P	2	S			0
 somrèiem	somriure	VMII1P00	central	I	M	0	I	1	P			0
 somrèieu	somriure	VMII2P00	central	I	M	0	I	2	P			0
-somréiem	somriure	VMII1P00	central	I	M	0	I	1	P			0
-somréieu	somriure	VMII2P00	central	I	M	0	I	2	P			0
 sortia	sortir	VMII1S00	central	I	M	0	I	1	S			0
 sortia	sortir	VMII3S00	central	I	M	0	I	3	S			0
 sortien	sortir	VMII3P00	central	I	M	0	I	3	P			0
@@ -2330,7 +2303,6 @@ sàpiguen	saber	VMSP3P00	central	S	M	0	P	3	P			0
 sàpigues	saber	VMM02S00	central	M	M	0	0	2	S			pos
 sàpigues	saber	VMSP2S00	central	S	M	0	P	2	S			0
 sé	saber	VMIP1S00	central	I	M	0	P	1	S			0
-sóc	ser	VSIP1S00	central	I	S	0	P	1	S			0
 són	ser	VSIP3P00	central	I	S	0	P	3	P			0
 ten	tenir	VMM02S00	central	M	M	0	0	2	S			pos
 tenen	tenir	VMIP3P00	central	I	M	0	P	3	P			0
@@ -2362,10 +2334,8 @@ tindríem	tenir	VMIC1P00	central	I	M	0	C	1	P			0
 tindríeu	tenir	VMIC2P00	central	I	M	0	C	2	P			0
 tinguem	tenir	VMM01P00	central	M	M	0	0	1	P			pos
 tinguem	tenir	VMSP1P00	central	S	M	0	P	1	P			0
-tingues	tenir	VMM02S00	central	M	M	0	0	2	S			pos
 tinguessin	tenir	VMSI3P02	central	S	M	0	I	3	P			0
 tinguessis	tenir	VMSI2S02	central	S	M	0	I	2	S			0
-tingueu	tenir	VMM02P0X	central	M	M	0	0	2	P			pos
 tingueu	tenir	VMSP2P00	central	S	M	0	P	2	P			0
 tingui	tenir	VMM03S0Y	central	M	M	0	0	3	S			pos
 tingui	tenir	VMSP1S0Y	central	S	M	0	P	1	S			0
@@ -2511,7 +2481,6 @@ trobés	trobar	VMSI3S01	central	S	M	0	I	3	S			0
 trobéssim	trobar	VMSI1P02	central	S	M	0	I	1	P			0
 trobéssiu	trobar	VMSI2P02	central	S	M	0	I	2	P			0
 té	tenir	VMIP3S00	central	I	M	0	P	3	S			0
-té	tenir	VMM02S00	central	M	M	0	0	2	S			pos
 uneix	unir	VMIP3S00	central	I	M	0	P	3	S			0
 uneix	unir	VMM02S00	central	M	M	0	0	2	S			pos
 uneixen	unir	VMIP3P00	central	I	M	0	P	3	P			0
@@ -2614,8 +2583,6 @@ vas	anar	VMIP2S00	central	I	M	0	P	2	S			0
 ve	venir	VMIP3S00	central	I	M	0	P	3	S			0
 vegem	veure	VMM01P00	central	M	M	0	0	1	P			pos
 vegem	veure	VMSP1P00	central	S	M	0	P	1	P			0
-veges	veure	VMM02S00	central	M	M	0	0	2	S			pos
-vegeu	veure	VMM02P00	central	M	M	0	0	2	P			pos
 vegeu	veure	VMSP2P00	central	S	M	0	P	2	P			0
 vegi	veure	VMM03S0Y	central	M	M	0	0	3	S			pos
 vegi	veure	VMSP1S0Y	central	S	M	0	P	1	S			0
@@ -2634,6 +2601,8 @@ veiessis	veure	VMSI2S02	central	S	M	0	I	2	S			0
 veieu	veure	VMIP2P00	central	I	M	0	P	2	P			0
 veieu	veure	VMM02P00	central	M	M	0	0	2	P			pos
 veig	veure	VMIP1S00	central	I	M	0	P	1	S			0
+veiés	veure	VMSI1S01	central	S	M	0	I	1	S			0
+veiés	veure	VMSI3S01	central	S	M	0	I	3	S			0
 venen	venir	VMIP3P00	central	I	M	0	P	3	P			0
 venia	venir	VMII1S00	central	I	M	0	I	1	S			0
 venia	venir	VMII3S00	central	I	M	0	I	3	S			0
@@ -2647,7 +2616,6 @@ veniu	venir	VMM02P00	central	M	M	0	0	2	P			pos
 vens	venir	VMIP2S00	central	I	M	0	P	2	S			0
 veníem	venir	VMII1P00	central	I	M	0	I	1	P			0
 veníeu	venir	VMII2P00	central	I	M	0	I	2	P			0
-ves	anar	VMM02S00	central	M	M	0	0	2	S			pos
 ves	veure	VMM02S00	central	M	M	0	0	2	S			pos
 veu	veure	VMIP3S00	central	I	M	0	P	3	S			0
 veuen	veure	VMIP3P00	central	I	M	0	P	3	P			0
@@ -2676,7 +2644,6 @@ vindrien	venir	VMIC3P00	central	I	M	0	C	3	P			0
 vindries	venir	VMIC2S00	central	I	M	0	C	2	S			0
 vindrà	venir	VMIF3S00	central	I	M	0	F	3	S			0
 vindràs	venir	VMIF2S00	central	I	M	0	F	2	S			0
-vindré	venir	VMIF1S00	central	I	M	0	F	1	S			0
 vindríem	venir	VMIC1P00	central	I	M	0	C	1	P			0
 vindríeu	venir	VMIC2P00	central	I	M	0	C	2	P			0
 vine	venir	VMM02S00	central	M	M	0	0	2	S			pos
@@ -2787,8 +2754,6 @@ vulguis	voler	VMSP2S0Y	central	S	M	0	P	2	S			0
 vull	voler	VMIP1S00	central	I	M	0	P	1	S			0
 vèiem	veure	VMII1P00	central	I	M	0	I	1	P			0
 vèieu	veure	VMII2P00	central	I	M	0	I	2	P			0
-vénen	venir	VMIP3P00	central	I	M	0	P	3	P			0
-véns	venir	VMIP2S00	central	I	M	0	P	2	S			0
 vés	anar	VMM02S00	central	M	M	0	0	2	S			pos
 érem	ser	VSII1P00	central	I	S	0	I	1	P			0
 éreu	ser	VSII2P00	central	I	S	0	I	2	P			0
@@ -3736,11 +3701,7 @@ llueixi	lluir	VMSP1S0Y	central	M	M	0	0	1	S			neg
 llueixi	lluir	VMSP3S0Y	central	M	M	0	0	3	S			neg
 llueixin	lluir	VMSP3P0Y	central	M	M	0	0	3	P			neg
 llueixis	lluir	VMSP2S0Y	central	M	M	0	0	2	S			neg
-lluï	lluir	VMSP1S0Y	central	M	M	0	0	1	S			neg
-lluï	lluir	VMSP3S0Y	central	M	M	0	0	3	S			neg
 lluïm	lluir	VMSP1P00	central	M	M	0	0	1	P			neg
-lluïn	lluir	VMSP3P0Y	central	M	M	0	0	3	P			neg
-lluïs	lluir	VMSP2S0Y	central	M	M	0	0	2	S			neg
 lluïu	lluir	VMSP2P00	central	M	M	0	0	2	P			neg
 mori	morir	VMSP1S0Y	central	M	M	0	0	1	S			neg
 mori	morir	VMSP3S0Y	central	M	M	0	0	3	S			neg
