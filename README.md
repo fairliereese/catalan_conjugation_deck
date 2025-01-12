@@ -1,5 +1,7 @@
 # Creating the Catalan conjugation Anki deck
 
+Per llegir aquest text en català, ves [aquest fitxer](https://github.com/fairliereese/catalan_conjugation_deck/blob/main/README_cat.md).
+
 I am learning Catalan as I moved to Catalunya almost a year ago. While I'm happy with my progress thus far, I've found the conjugation patterns of verbs in Catalan more challenging and less natural than in Spanish (which I studied for 4 years in high school). Moreover, in neither language have I been good at using certain forms (such as imperfect subjunctive). Thus, I wanted to find a solution to help me drill conjugations in a way more meaningful than simply writing verb forms out in a table, which ultimately is missing the context needed to internalize the conjugations in a meaningful way.
 
 For vocabulary acquisition, I've been using [Anki](https://ankiweb.net/), which is a highly-customizable flashcards platform that employs spaced repetition to optimize retention. I found [this excellent deck](https://ankiweb.net/shared/info/638411848) which does exactly what I want, but for Spanish. In summary, this deck uses 72 verbs which were picked to exemplify all possible regular and irregular conjugation patterns for all verbal forms within the context of a sentence. I used this deck as a template to create an equivalent deck for Catalan.
@@ -50,7 +52,7 @@ python get_spanish_context_phrases.py
 
 This results in `spanish_context_phrases.tsv`, and the manual translations (with added pronoun translations [ie tú->tu; yo->jo]) are in `spanish_catalan_context_phrases.csv`.
 
-This part is likely the one that resulted in some difficult-to-catch errors, if you see any please contact me or open an issue on this GitHub repo.
+This part is likely the one that resulted in some difficult-to-catch errors, if you see any please contact me or open an issue on [this GitHub repo](https://github.com/fairliereese/catalan_conjugation_deck).
 
 
 ## Assembling the final table

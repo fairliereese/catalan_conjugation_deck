@@ -49,35 +49,34 @@ Cada carta disposa de frases per afegir context al verb, les quals també calia 
 python get_spanish_context_phrases.py
 ```
 
-This results in `spanish_context_phrases.tsv`, and the manual translations (with added pronoun translations [ie tú->tu; yo->jo]) are in `spanish_catalan_context_phrases.csv`.
+Això genera el fitxer `spanish_context_phrases.tsv`, i les traduccions (també amb traduccions dels pronoms [per exemple tú->tu; yo->jo]) són al fitxer `spanish_catalan_context_phrases.csv`.
 
-This part is likely the one that resulted in some difficult-to-catch errors, if you see any please contact me or open an issue on this GitHub repo.
+Aquest part és la més probable d'haver introduït uns errors difícils de trobar. Si en veus algun si us plau avisa'm o obri un issue en [aquest GitHub repo](https://github.com/fairliereese/catalan_conjugation_deck).
 
+## Construïnt la taula final
 
-## Assembling the final table
+Vaig fer servir els tags de la baralla de cartes de conjugació castellana que va definir les formes verbals per unir-les amb les equivalents de català. Vaig afegir tags per les terminacions verbals, les formes verbals, i l'infinitiu per a cada carta. Per fi, vaig substituir el text castellà (incloent-hi les frases de context, l'infinitiu i la forma conjugada) amb l'equivalent català.
 
-I used the tags from the Spanish conjugation deck that defined the verbal forms to merge with the equivalent Catalan verbal forms. I added tags for verb endings, verbal forms, and infinitive for each card. Finally, I replaced the Spanish text (including the context phrases, the infinitive, and the conjugated form) with the Catalan equivalent.
 
 ```bash
 python get_anki_table.py
 ```
 
-This results in the `table_to_make_cards.csv` file. All that's left now is to import the cards into Anki!
+Això fa el fitxer `table_to_make_cards.csv`. L'única cosa que ens queda és afegir les cartes a Anki!
 
-## Final cards and recommendations
+## Les cartes finals i recomanacions
 
-The final `.apkg` file can be downloaded [here](https://github.com/fairliereese/catalan_conjugation_deck/blob/main/catal%C3%A0_conjugaci%C3%B3.apkg) from the GitHub repo. The original author of the Spanish conjugation deck put a lot of work into making a [manual](https://www.asiteaboutnothing.net/w_ultimate_spanish_conjugation.php#how) on how to most effectively use these cards, and I recommend reading it before studying.
+El fitxer `.apkg` fitxer es pot descarregar [aquí](https://github.com/fairliereese/catalan_conjugation_deck/blob/main/catal%C3%A0_conjugaci%C3%B3.apkg) del GitHub repo. L'autor original de la baralla de cartes castellana va fer molta feina per fer un [manual](https://www.asiteaboutnothing.net/w_ultimate_spanish_conjugation.php#how) sobre com s'hauria de fer servir les cartes de manera efectiva, i us recomano llegir-lo abans d'estudiar.
 
-## Wishlist
+## Llista de desitjos
 
-There are a few things that I would like to add in the future:
-* For forms with multiple valid conjugations, report all valid forms as answers
-* Add `treure` to the table instead of `jeure`
-* Add `dur` to the table
-* Add `haver-hi` card
-* Add past perfect cards to help train the difference between past perfect and periphrasic past, as the distictions are different than they are in English and Latin American Spanish (ie add key words `avui` / `aquest cap de setmana` vs. `ahir` / `l'any passat`)
+Hi queden unes quantes coses que m'agradarien afegir al futur:
+* Per a formes amb unes quantes conjugacions vàlides, mostrar-ne totes com a respostes
+* Afegir-hi `treure` en lloc de `jeure`
+* Afegir-hi `dur`
+* Afegir-hi `haver-hi`
+* Afegir cartes de la forma passat perfet per ajudar de practicar la diferència entre el passat perfet i passat perifràstic, com que les distincions són diferents que són en l'anglès o el castellà de Amèrica Llatina (per exemple, afegir paraules claus `avui` / `aquest cap de setmana` vs. `ahir` / `l'any passat`)
 
-Again, if you see any errors, as this was done systematically, please feel free to contact me and I will try to make an update!
-
+Altre cop, si veus algun error, com que tota aquesta feina vaig fer sistemàticament, si us plau avisa'm i intentaré fer una actualització.
 
 (Gràcies a les eines de Softcatalà per ajudar-me corregir aquest text)
