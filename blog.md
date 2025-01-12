@@ -29,10 +29,10 @@ bash build-lt.sh
 This should result in the file `diccionari.txt`, which I include in this repo.
 
 I then parsed the codes from the Softcatalà dictionary to obtain the form information for each conjugated verb (mood, tense, pronoun, etc.). Based on my needs, I had to make some decisions about specific verbal forms to keep, and which to remove.
-* Keep only the Central Ultimate_Spanish_Conjugation_Lisardos_KOFI_Method (ie. remove Valencian and Balearic conjugations)
+* Keep only the Central conjugations (ie. remove Valencian and Balearic conjugations)
 * Remove the past simple conjugations and replace them with periphrasic past conjugations
 * Remove future subjunctive conjugations
-* Add negative command conjugations (which are just the subjunctive)
+* Add negative command conjugations (which are just the present subjunctive)
 * From here, for many verbs with multiple valid forms, pick one (this is behavior I'd like to change in the future; ie. by displaying all valid options)
 
 ```bash
@@ -51,6 +51,8 @@ python get_spanish_context_phrases.py
 
 This results in `spanish_context_phrases.tsv`, and the manual translations (with added pronoun translations [ie tú->tu; yo->jo]) are in `spanish_catalan_context_phrases.csv`.
 
+This part is likely the one that resulted in some difficult-to-catch errors, if you see any please contact me or open an issue on this GitHub repo.
+
 
 ## Assembling the final table
 
@@ -61,3 +63,18 @@ python get_anki_table.py
 ```
 
 This results in the `table_to_make_cards.csv` file. All that's left now is to import the cards into Anki!
+
+## Final cards and recommendations
+
+The final `.apkg` file can be downloaded [here]() from the GitHub repo. The original author of the Spanish conjugation deck put a lot of work into making a [manual](https://www.asiteaboutnothing.net/w_ultimate_spanish_conjugation.php#how) on how to most effectively use these cards, and I recommend reading it before studying.
+
+## Wishlist
+
+There are a few things that I would like to add in the future:
+* For forms with multiple valid conjugations, report all valid forms as answers
+* Add `treure` to the table instead of `jeure`
+* Add `dur` to the table
+* Add `haver-hi` card
+* Add past perfect cards to help train the difference between past perfect and periphrasic past, as the distictions are different than they are in English and Latin American Spanish (ie add key words `avui` / `aquest cap de setmana` vs. `ahir` / `l'any passat`)
+
+Again, if you see any errors, as this was done systematically, please feel free to contact me and I will try to make an update!
