@@ -15,35 +15,35 @@ python get_spanish_verbs.py
 
 Això farà el fitxer `spanish_verbs.tsv`. A continuació, vaig traduir tots els verbs castellans als seus equivalents catalans, que són al fitxer `spanish_to_catalan_verbs.csv`. Vaig treure uns quants verbs en aquest pas.
 
-## Obtaining Catalan verbal forms
+## Obtenint les formes verbals catalanes
 
-Then, I needed a list of all Catalan verbal forms and metadata about each one. The Catalan speaking and learning community is incredibly lucky to have the [Softcatalà resource](https://www.softcatala.org/), including a [verb conjugator](https://www.softcatala.org/conjugador-de-verbs/). They have a number of computational tools to support this resource on their [GitHub](https://github.com/Softcatala/catalan-dict-tools/).
+A continuació, necessitava una llista de totes les formes verbals catalanes i metadades de cadascuna. Les comunitats de catalanoparlants i aprenents de català tenen molta sort de disposar del [recurs de Softcatalà](https://www.softcatala.org/), incloent-hi un [conjugador de verbs](https://www.softcatala.org/conjugador-de-verbs/). Tenen una pila d'eines computationals que li donen suport a aquest recurs al seu [GitHub](https://github.com/Softcatala/catalan-dict-tools/).
 
-
-I obtained the entire dictionary from Softcatalà using their tools.
+Vaig obtenir el diccionari sencer de Softcatalà fent servir les seves eines.
 ```bash
 git clone https://github.com/Softcatala/catalan-dict-tools.git
 cd catalan-dict-tools
 bash build-lt.sh
 ```
-This should result in the file `diccionari.txt`, which I include in this repo.
 
-I then parsed the codes from the Softcatalà dictionary to obtain the form information for each conjugated verb (mood, tense, pronoun, etc.). Based on my needs, I had to make some decisions about specific verbal forms to keep, and which to remove.
-* Keep only the Central conjugations (ie. remove Valencian and Balearic conjugations)
-* Remove the past simple conjugations and replace them with periphrasic past conjugations
-* Remove future subjunctive conjugations
-* Add negative command conjugations (which are just the present subjunctive)
-* From here, for many verbs with multiple valid forms, pick one (this is behavior I'd like to change in the future; ie. by displaying all valid options)
+Això farà el fitxer `diccionari.txt`, el qual incloc en aquest repo.
+
+Després, vaig analitzar els codis del diccionari Softcatalà per adquirir la informació de la forma per cada verb conjugat. Basat en allò que necessitava, havia de prendre algunes decisions sobre quines d'agafar-ne i quines de eliminar.
+
+* Mantenir només les conjugacions centrals (eliminar les valencianes i balears)
+* Eliminar les conjugacions de passat simple i substituir-les amb el passat perifràstic
+* Afegir les formes imperatives negatives (les quals només són del subjuntiu present)
+* D'aquí, hi havia uns quants verbs amb diverses formes vàlides, triar-ne una
 
 ```bash
 python parse_catalan_verbs.py
 ```
 
-This results in the `catalan_verbs_parsed.tsv` table.
+Això crea la taula `catalan_verbs_parsed.tsv`.
 
-## Translating context phrases
+## Traduint les frases de context
 
-Each card contains phrases in order to contextualize the target verb that also needed to be translated to Catalan. I split the notes on each Spanish card using a variety of delimiters and then manually translated them from Spanish to Catalan.
+Cada carta disposa de frases per afegir context al verb, les quals també calia traduir a català. Vaig dividir les notes a cada carta castellana fent servir uns quants delimitadors i després traduir-les de castellà a català.
 
 ```bash
 python get_spanish_context_phrases.py

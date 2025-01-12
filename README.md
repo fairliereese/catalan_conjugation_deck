@@ -31,7 +31,6 @@ This should result in the file `diccionari.txt`, which I include in this repo.
 I then parsed the codes from the Softcatalà dictionary to obtain the form information for each conjugated verb (mood, tense, pronoun, etc.). Based on my needs, I had to make some decisions about specific verbal forms to keep, and which to remove.
 * Keep only the Central conjugations (ie. remove Valencian and Balearic conjugations)
 * Remove the past simple conjugations and replace them with periphrasic past conjugations
-* Remove future subjunctive conjugations
 * Add negative command conjugations (which are just the present subjunctive)
 * From here, for many verbs with multiple valid forms, pick one (this is behavior I'd like to change in the future; ie. by displaying all valid options)
 
