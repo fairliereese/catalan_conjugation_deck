@@ -66,7 +66,7 @@ This results in the `table_to_make_cards.csv` file. All that's left now is to im
 
 ## Final cards and recommendations
 
-The final `.apkg` file can be downloaded [here]() from the GitHub repo. The original author of the Spanish conjugation deck put a lot of work into making a [manual](https://www.asiteaboutnothing.net/w_ultimate_spanish_conjugation.php#how) on how to most effectively use these cards, and I recommend reading it before studying.
+The final `.apkg` file can be downloaded [here](https://github.com/fairliereese/catalan_conjugation_deck/blob/main/catal%C3%A0_conjugaci%C3%B3.apkg) from the GitHub repo. The original author of the Spanish conjugation deck put a lot of work into making a [manual](https://www.asiteaboutnothing.net/w_ultimate_spanish_conjugation.php#how) on how to most effectively use these cards, and I recommend reading it before studying.
 
 ## Wishlist
 
