@@ -6,16 +6,14 @@ Per adquirir el vocabulari, he estat utilitzant [Anki](https://ankiweb.net/), un
 
 ## Analitzant la baralla de cartes de conjucacions castellanes
 
-En lloc de tornar a fer tota [la feina per generar la baralla de cartes castellana](https://www.asiteaboutnothing.net/ultimate-spanish-conjugation-verb-set.php), vaig decidir simplement agafar-ne tots els verbs, traduir-los a català, i utilitzar només aquests verbs per formar part de la baralla de cartes catalana.
-
-Instead of re-implementing all [the work done to generate the Spanish deck](https://www.asiteaboutnothing.net/ultimate-spanish-conjugation-verb-set.php), I decided to simply take all the verbs from the original Spanish deck, translate them to Catalan, and use just those verbs to form the basis of the Catalan deck. Thus, first I downloaded the [Spanish conjugation deck](https://ankiweb.net/shared/info/638411848).
+En lloc de tornar a fer tota [la feina per generar la baralla de cartes castellana](https://www.asiteaboutnothing.net/ultimate-spanish-conjugation-verb-set.php), vaig decidir simplement agafar-ne tots els verbs, traduir-los a català, i utilitzar només aquests verbs per formar part de la baralla de cartes catalana. Per tant, primer, vaig descarregar la [baralla de cartes castellana](https://ankiweb.net/shared/info/638411848).
 
 ```bash
 unzip Ultimate_Spanish_Conjugation_Lisardos_KOFI_Method.apkg
 python get_spanish_verbs.py
 ```
 
-This will give the `spanish_verbs.tsv` file. I then manually translated all the Spanish verbs to the Catalan equivalents, which are in the `spanish_to_catalan_verbs.csv` file. I did remove a few verbs at this stage.
+Això farà el fitxer `spanish_verbs.tsv`. A continuació, vaig traduir tots els verbs castellans als seus equivalents catalans, que són al fitxer `spanish_to_catalan_verbs.csv`. Vaig treure uns quants verbs en aquest pas.
 
 ## Obtaining Catalan verbal forms
 
