@@ -32,7 +32,7 @@ Create table with all new card content
 
 
 # Wishlist
-* add treure because f that verb (have jeure as a model but treure would def be more useful)
+* add treure because f that verdb (have jeure as a model but treure would def be more useful)
 * add dur because also f that verb
 * add haver-hi card (hi ha bla bla bla) (tagged in the kofi deck as "idiom")
 * add past tense cards to help train the difference between passat perfet and passat perifrastic (ie by adding an avui, or aquest cap de setmana for simple or ahir, or l'any passat for the passat perifrastic)
