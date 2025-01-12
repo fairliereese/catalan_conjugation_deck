@@ -6,9 +6,11 @@ Per adquirir el vocabulari, he estat utilitzant [Anki](https://ankiweb.net/), un
 
 ## Les cartes
 
-![](img/ex_2.jpeg)
-![](img/ex_1.jpeg)
+Aquí tens un exemple de com semblen les cartes:
 
+<img src="img/ex_2.jpeg" alt="Front of card" width="300"/>  
+
+<img src="img/ex_1.jpeg" alt="Back of card" width="300"/>
 
 ## Analitzant la baralla de cartes de conjucacions castellanes
 
