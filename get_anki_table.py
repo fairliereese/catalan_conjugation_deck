@@ -47,16 +47,16 @@ df = df.merge(cat_sp_df,
               on='spanish_verb')
         
 # get rid of vos
-print(len(df.index))
+# print(len(df.index))
 # df = df.loc[~((df.tags.str.contains(' tú_vos '))&
 #             ~(df.tags.str.contains(' tú ')))]
 df = df.loc[~((df.tags.str.contains(' vos ')))]
-print(len(df.index))
+# print(len(df.index))
 
 # get rid of subjunctive future
-print(len(df.index))
+# print(len(df.index))
 df = df.loc[~df.tags.str.contains(' subjuntivo_futuro ')]
-print(len(df.index))
+# print(len(df.index))
 
 # remove hay 
 df = df.loc[~df.tags.str.contains('idiom')]
@@ -138,8 +138,6 @@ df.loc[df.duplicated(subset=merge_cols, keep=False)].sort_values(by=merge_cols).
 # TODO add a version of the past using "ahir" 
 # for the passat simple (ie he anat)
 
-## TODO -- add neg. commands for everything by just sticking a no everywhere in the pos. cmds
-
 # translated spanish to cat. phrases to stick on the cards
 trans_df = pd.read_csv('spanish_catalan_context_phrases.csv', sep=',',
                         encoding='utf-8')
@@ -178,6 +176,20 @@ df['cat_note'] = df.note1+'{{c1::'+df.conj_verb+'::…'+\
                  df.inf_verb+'…}}'+df.note2
 df.cat_note[0]
 
+# add neg. commands for everything by just sticking a no everywhere in the pos. cmds
+# remove old negative imperatiu
+# print(len(df.index))
+df = df.loc[~df.tags.str.contains('negative_imperativo')]
+# print(len(df.index))
+
+imp_df = df.loc[df.mood=='M'].copy(deep=True)
+imp_df['cat_note'] = imp_df.note1+'no {{c1::'+imp_df.conj_verb+'::…'+\
+                     imp_df.inf_verb+'…}}'+imp_df.note2
+imp_df.pos_neg_cmd = 'neg'
+# print(len(df.index))
+df = pd.concat([df, imp_df], axis=0)
+# print(len(df.index))
+
 # tags for tense
 d = {'P': 'present',
      'I': 'imperfet',
@@ -194,6 +206,10 @@ d = {'G': 'gerundi',
      'S': 'subjuntiu',
      'M': 'imperatiu'}
 df['mood_tag'] = df.mood.map(d)
+
+# neg. imperative
+df.loc[(df.mood=='M')&
+       (df.pos_neg_cmd=='neg'), 'mood_tag'] = 'imperatiu_negatiu'
 
 # tags for ending
 df['ending_tag'] = ''
