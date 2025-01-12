@@ -6,6 +6,14 @@ I am learning Catalan as I moved to Catalunya almost a year ago. While I'm happy
 
 For vocabulary acquisition, I've been using [Anki](https://ankiweb.net/), which is a highly-customizable flashcards platform that employs spaced repetition to optimize retention. I found [this excellent deck](https://ankiweb.net/shared/info/638411848) which does exactly what I want, but for Spanish. In summary, this deck uses 72 verbs which were picked to exemplify all possible regular and irregular conjugation patterns for all verbal forms within the context of a sentence. I used this deck as a template to create an equivalent deck for Catalan.
 
+## The cards
+
+This is an example of how the cards look:
+
+<img src="img/ex_2.jpeg" alt="Front of card" width="300"/>  
+
+<img src="img/ex_1.jpeg" alt="Back of card" width="300"/>
+
 ## Parsing the Spanish conjugation deck
 
 Instead of re-implementing all [the work done to generate the Spanish deck](https://www.asiteaboutnothing.net/ultimate-spanish-conjugation-verb-set.php), I decided to simply take all the verbs from the original Spanish deck, translate them to Catalan, and use just those verbs to form the basis of the Catalan deck. Thus, first I downloaded the [Spanish conjugation deck](https://ankiweb.net/shared/info/638411848).

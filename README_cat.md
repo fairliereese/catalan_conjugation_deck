@@ -4,6 +4,12 @@ Estic aprenent català com que em vaig mudar a Catalunya gairebé fa un any. Tot
 
 Per adquirir el vocabulari, he estat utilitzant [Anki](https://ankiweb.net/), una aplicació de flashcards que fa servir repetició espaiada per optimitzar la retenció del vocabulari. Vaig trobar [aquesta excel·lent baralla de cartes](https://ankiweb.net/shared/info/638411848) que fa exactament allò que vull, però és pel castellà. Per resumir, aquesta baralla de cartes utilitza 72 verbs els quals eren triats per exemplificar cada patró de conjugació tant els regulars i els irregulars, a dins d'una frase. Vaig fer servir aquesta baralla de cartes per crear-ne una equivalent per a català.
 
+## Les cartes
+
+![](img/ex_2.jpeg)
+![](img/ex_1.jpeg)
+
+
 ## Analitzant la baralla de cartes de conjucacions castellanes
 
 En lloc de tornar a fer tota [la feina per generar la baralla de cartes castellana](https://www.asiteaboutnothing.net/ultimate-spanish-conjugation-verb-set.php), vaig decidir simplement agafar-ne tots els verbs, traduir-los a català, i utilitzar només aquests verbs per formar part de la baralla de cartes catalana. Per tant, primer, vaig descarregar la [baralla de cartes castellana](https://ankiweb.net/shared/info/638411848).
