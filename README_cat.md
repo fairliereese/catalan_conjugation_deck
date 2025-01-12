@@ -28,7 +28,7 @@ bash build-lt.sh
 
 Això farà el fitxer `diccionari.txt`, el qual incloc en aquest repo.
 
-Després, vaig analitzar els codis del diccionari Softcatalà per adquirir la informació de la forma per cada verb conjugat. Basat en allò que necessitava, havia de prendre algunes decisions sobre quines d'agafar-ne i quines de eliminar.
+Després, vaig analitzar els codis del diccionari Softcatalà per adquirir la informació de la forma per cada verb conjugat. Basat en allò que necessitava, havia de prendre algunes decisions sobre quines d'agafar-ne i quines d'eliminar.
 
 * Mantenir només les conjugacions centrals (eliminar les valencianes i balears)
 * Eliminar les conjugacions de passat simple i substituir-les amb el passat perifràstic
