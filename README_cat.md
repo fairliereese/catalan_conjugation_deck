@@ -59,7 +59,7 @@ python get_spanish_context_phrases.py
 
 Això genera el fitxer `spanish_context_phrases.tsv`, i les traduccions (també amb traduccions dels pronoms [per exemple tú->tu; yo->jo]) són al fitxer `spanish_catalan_context_phrases.csv`.
 
-Aquest part és la més probable d'haver introduït uns errors difícils de trobar. Si en veus algun si us plau avisa'm o obri un issue en [aquest GitHub repo](https://github.com/fairliereese/catalan_conjugation_deck).
+Aquesta part és la més probable d'haver introduït uns errors difícils de trobar. Si en veus algun si us plau avisa'm o obri un issue en [aquest GitHub repo](https://github.com/fairliereese/catalan_conjugation_deck).
 
 ## Construïnt la taula final
 
