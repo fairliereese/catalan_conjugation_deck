@@ -84,6 +84,6 @@ There are a few things that I would like to add in the future:
 * Add `treure` to the table instead of `jeure`
 * Add `dur` to the table
 * Add `haver-hi` card
-* Add past perfect cards to help train the difference between past perfect and periphrasic past, as the distictions are different than they are in English and Latin American Spanish (ie add key words `avui` / `aquest cap de setmana` vs. `ahir` / `l'any passat`)
+* Add past perfect cards to help train the difference between past perfect and periphrasic past, as the distinctions are different than they are in English and Latin American Spanish (ie add key words `avui` / `aquest cap de setmana` vs. `ahir` / `l'any passat`)
 
 Again, if you see any errors, as this was done systematically, please feel free to contact me and I will try to make an update!

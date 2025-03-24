@@ -19,7 +19,7 @@ intro_phrases = ["El verbo en",
                  "Before",
                  "During",
                  "Grammar",
-                 "For ", 
+                 "For ",
                  "I hesitated",
                  "If you see"]
 for row in rows:
@@ -33,7 +33,7 @@ for row in rows:
     else:
         notes.append(row[0])
         tags.append(row[1])
-        
+
 # make into a df
 df = pd.DataFrame(data=notes,
                   columns=['note'])
@@ -45,7 +45,7 @@ df['spanish_verb'] = df['note'].str.split('::…', expand=True)[1].str.split('�
 df = df.merge(cat_sp_df,
               how='inner',
               on='spanish_verb')
-        
+
 # get rid of vos
 # print(len(df.index))
 # df = df.loc[~((df.tags.str.contains(' tú_vos '))&
@@ -58,10 +58,10 @@ df = df.loc[~((df.tags.str.contains(' vos ')))]
 df = df.loc[~df.tags.str.contains(' subjuntivo_futuro ')]
 # print(len(df.index))
 
-# remove hay 
+# remove hay
 df = df.loc[~df.tags.str.contains('idiom')]
 
-# tags I care about that I can merge on 
+# tags I care about that I can merge on
 
 # 1, 2, 3rd person
 person_map = {'yo': '1',
@@ -75,7 +75,7 @@ df['person'] = '0'
 for key, item in person_map.items():
     thing = ' '+key+' '
     df.loc[df.tags.str.contains(thing), 'person'] = person_map[key]
-    
+
 # singular or plural
 sing_or_plural_map = {'yo': 'S',
               'tú': 'S',
@@ -127,7 +127,7 @@ df['pos_neg_cmd'] = '0'
 for key, item in pos_neg_map.items():
     thing = ' '+key+' '
     df.loc[df.tags.str.contains(thing), 'pos_neg_cmd'] = pos_neg_map[key]
-    
+
 # get rid of imperative haver
 df = df.loc[~((df.mood=='M')&(df.inf_verb=='haver'))]
 
@@ -135,7 +135,7 @@ merge_cols = ['inf_verb', 'mood', 'tense', 'person',
               'sing_or_plural', 'pos_neg_cmd']
 df.loc[df.duplicated(subset=merge_cols, keep=False)].sort_values(by=merge_cols).head()
 
-# TODO add a version of the past using "ahir" 
+# TODO add a version of the past using "ahir"
 # for the passat simple (ie he anat)
 
 # translated spanish to cat. phrases to stick on the cards
@@ -148,7 +148,7 @@ for ind, entry in trans_df.iterrows():
     sp = entry.spanish_phrase
     ca = entry.catalan_phrase
     df.note = df.note.str.replace(sp, ca)
-    
+
 merge_cols = ['inf_verb', 'mood', 'tense', 'person',
               'sing_or_plural', 'pos_neg_cmd']
 
@@ -162,12 +162,21 @@ cat_conj_df = pd.read_csv('catalan_verbs_parsed.tsv', sep='\t', encoding='utf-8'
 for c in merge_cols:
     df[c] = df[c].astype(str)
     cat_conj_df[c] = cat_conj_df[c].astype(str)
-df = df.merge(cat_conj_df, 
-              how='left', 
+df = df.merge(cat_conj_df,
+              how='left',
               on=merge_cols)
 
 l = len(df.loc[df.duplicated(subset=merge_cols, keep=False)].sort_values(by=merge_cols))
-assert l == 0 
+assert l == 0
+
+# fix context text for estar
+# singular
+inds = df.loc[(df.inf_verb=='estar')&(df.note.str.contains('Cadis'))&(df.sing_or_plural=='S')].index.tolist()
+df.loc[inds, 'note'] = df.loc[inds].note.str.replace('a Cadis', 'feliç')
+
+# plural
+inds = df.loc[(df.inf_verb=='estar')&(df.note.str.contains('Cadis'))&(df.sing_or_plural=='P')].index.tolist()
+df.loc[inds, 'note'] = df.loc[inds].note.str.replace('a Cadis', 'feliços')
 
 # replace inf verb and conj verb in note
 df['note1'] = df.note.str.split('{{', expand=True)[0]
@@ -194,7 +203,7 @@ df = pd.concat([df, imp_df], axis=0)
 d = {'P': 'present',
      'I': 'imperfet',
      'passat_perifrastic': 'passat_perifrastic',
-     'F': 'futur', 
+     'F': 'futur',
      'C': 'condicional',
      '0': ''}
 df['tense_tag'] = df.tense.map(d)
@@ -226,7 +235,7 @@ df['pronoun_tag'] = ''
 df.loc[(df.sing_or_plural=='S')&
        (df.person=='1'), 'pronoun_tag'] = 'jo'
 
-# tu 
+# tu
 df.loc[(df.sing_or_plural=='S')&
        (df.person=='2'), 'pronoun_tag'] = 'tu'
 
